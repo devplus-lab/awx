@@ -89,7 +89,7 @@ jobs:
       - name: Setup node and npm
         uses: actions/setup-node@v2
         with:
-          node-version: '16.13.1'
+          node-version: '20'
 
       - name: Prebuild UI for awx image (to speed up build process)
         working-directory: awx
