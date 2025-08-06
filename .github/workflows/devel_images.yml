@@ -63,7 +63,7 @@ jobs:
       - name: Setup node and npm
         uses: actions/setup-node@v2
         with:
-          node-version: '16.13.1'
+          node-version: '20'
         if: matrix.build-targets.image-name == 'awx'
 
       - name: Prebuild UI for awx image (to speed up build process)
